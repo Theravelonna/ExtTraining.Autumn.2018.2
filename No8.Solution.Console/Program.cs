@@ -69,7 +69,7 @@
         {
             
             string model;
-            var printersWithSourceName = PrinterManager.printers.Where(x => x.Name == name);
+            var printersWithSourceName = PrinterManager.Printers.Where(x => x.Name == name);
 
             foreach (var item in printersWithSourceName)
             {
